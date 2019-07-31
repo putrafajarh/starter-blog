@@ -12,13 +12,20 @@ wp-config.php
 # starter plugins
 # starter themes
 wp-content/*
+!wp-content/plugins/
+wp-content/plugins/*
 !wp-content/plugins/classic-editor/
 !wp-content/plugins/wordpress-seo/
 !wp-content/plugins/index.php
+!wp-content/themes/
+wp-content/themes/*
 !wp-content/themes/colormag/
 !wp-content/themes/index.php
 !wp-content/index.php
+
 # dont ignore dummy data
+!wp-content/uploads/
+wp-content/uploads/*
 !wp-content/uploads/2015/
 !wp-content/uploads/2016/
 !wp-content/uploads/2017/
