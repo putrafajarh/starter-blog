@@ -1,0 +1,26 @@
+wp-config.php
+
+**.DS_Store**
+**.sql**
+
+# ignore packaged files
+*.tar.gz
+*.zip
+*.gz
+
+# ignore everything in the "wp-content" directory, except:
+# starter plugins
+# starter themes
+wp-content/*
+!wp-content/plugins/classic-editor/
+!wp-content/plugins/wordpress-seo/
+!wp-content/plugins/index.php
+!wp-content/themes/colormag/
+!wp-content/themes/index.php
+!wp-content/index.php
+# dont ignore dummy data
+!wp-content/uploads/2015/
+!wp-content/uploads/2016/
+!wp-content/uploads/2017/
+!wp-content/uploads/evf-logs/
+!wp-content/uploads/tg-demo-pack/
